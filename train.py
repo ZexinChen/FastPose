@@ -171,7 +171,7 @@ def train(train_loader, model, optimizer, epoch, writer):
                 print('lr:',param_group['lr'])
                 
             writer.add_scalars('data/scalar_group_iter', {'train loss iter avg': losses.avg,'train loss val': losses.val}, epoch*len(train_loader)+i)
-            return losses.avg  
+  
     return losses.avg  
         
 def validate(val_loader, model, epoch):
