@@ -1,7 +1,7 @@
 
 
 ## FastPose
-Fast Pose is a small and fast multi-person pose estimator which use middle point to do the keypoint grouping. The technical report will be released soon. FastPose is the 46% smaller and faster(forward time) than [OpenPose]( https://github.com/CMU-Perceptual-Computing-Lab/openpose) 
+FastPose is a small and fast multi-person pose estimator which use middle point to do the keypoint grouping. It is the 46% smaller and faster (forward time) than [OpenPose]( https://github.com/CMU-Perceptual-Computing-Lab/openpose). The technical report will be released soon.   
 
 
 ## Installation
