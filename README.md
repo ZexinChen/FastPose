@@ -1,8 +1,7 @@
 
 
 ## FastPose
-FastPose is a small and fast multi-person pose estimator which use middle point to do the keypoint grouping. It is the 46% smaller and faster (forward time) than [OpenPose]( https://github.com/CMU-Perceptual-Computing-Lab/openpose). The technical report will be released soon.   
-
+FastPose is a small and fast multi-person pose estimator which use middle point to do the keypoint grouping. It is the 46% smaller and faster (forward time) than [OpenPose]( https://github.com/CMU-Perceptual-Computing-Lab/openpose). The technical report will be released soon. 
 
 ## Installation
 
@@ -55,6 +54,8 @@ You can run the code in the `./picture_demo.ipynb` to see the demo of your own i
 
 ## Contributors
 FastPose is developed and maintained by [Zexin Chen](https://github.com/ZexinChen) and [Yuliang Xiu](https://github.com/YuliangXiu/). 
+Some codes is brought from [pytorch-version OpenPose]( https://github.com/tensorboy/pytorch_Realtime_Multi-Person_Pose_Estimation). Thanks to the original authors.  
+
 
 
 ## License
