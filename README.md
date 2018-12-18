@@ -1,7 +1,7 @@
 
 
 ## FastPose
-FastPose is a small and fast multi-person pose estimator which use middle point to do the keypoint grouping. It is the 46% smaller and 47% faster (forward time) than [OpenPose]( https://github.com/CMU-Perceptual-Computing-Lab/openpose). The technical report will be released soon. 
+FastPose is a small and fast multi-person pose estimator which use middle point to do the keypoint grouping. It is the 46% smaller and 47% faster (forward time) than [OpenPose]( https://github.com/CMU-Perceptual-Computing-Lab/openpose) (without using existing model compression and acceleration methods like MobileNet, Quantization, etc). The technical report will be released soon. 
 
 ## Installation
 
@@ -16,7 +16,7 @@ FastPose is a small and fast multi-person pose estimator which use middle point 
   ```
 
 3. Download the models manually:
- **fastpose.pth** (2018/08/30) ([Google Drive]( https://drive.google.com/file/d/1w5lzE0YGRv6mZLRGyWPYYERO3kF79HCA/view?usp=sharing) | [Baidu pan](https://pan.baidu.com/s/1FwherKVoZwPaJTzdi4xQNw)). Place it into `./network/weights` .
+ **fastpose.pth**  ([Google Drive]( https://drive.google.com/file/d/1w5lzE0YGRv6mZLRGyWPYYERO3kF79HCA/view?usp=sharing) | [Baidu pan](https://pan.baidu.com/s/1FwherKVoZwPaJTzdi4xQNw)). Place it into `./network/weights` .
 
 
 ## Demo
@@ -32,8 +32,8 @@ You can run the code in the `./picture_demo.ipynb` to see the demo of your own i
 
 ## Training
 1. Prepare COCO dataset:  
-  a. Download **COCO.json** (2018/08/30) (Google Drive | [Baidu pan](https://pan.baidu.com/s/1q0S2Q3rH4wDjvb87VBw-Rg)). Place it into `./data/coco/` .  
-  b. Download **mask.tar.gz** (2018/08/30) ([Google Drive]( https://drive.google.com/open?id=1IFaWH-ivoDHD1fLt5IRgQBDm_08mVRJF) | [Baidu pan](https://pan.baidu.com/s/1q0S2Q3rH4wDjvb87VBw-Rg)). Untar it into `./data/coco/` .  
+  a. Download **COCO.json**  (Google Drive | [Baidu pan](https://pan.baidu.com/s/1q0S2Q3rH4wDjvb87VBw-Rg)). Place it into `./data/coco/` .  
+  b. Download **mask.tar.gz**  ([Google Drive]( https://drive.google.com/open?id=1IFaWH-ivoDHD1fLt5IRgQBDm_08mVRJF) | [Baidu pan](https://pan.baidu.com/s/1q0S2Q3rH4wDjvb87VBw-Rg)). Untar it into `./data/coco/` .  
   c. Download COCO dataset (2014)
   ```Shell
   bash ./training/getData.sh
