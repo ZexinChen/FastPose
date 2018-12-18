@@ -26,6 +26,10 @@ You can run the code in the `./picture_demo.ipynb` to see the demo of your own i
     <img src="readme/result.png", width="600">
 </div>
 
+<div align="center">
+    <img src="readme/result1.png", width="500">
+</div>
+
 ## Training
 1. Prepare COCO dataset:  
   a. Download **COCO.json** (2018/08/30) (Google Drive | [Baidu pan](https://pan.baidu.com/s/1q0S2Q3rH4wDjvb87VBw-Rg)). Place it into `./data/coco/` .  
