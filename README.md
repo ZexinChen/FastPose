@@ -32,7 +32,7 @@ You can run the code in the `./picture_demo.ipynb` to see the demo of your own i
 
 ## Training
 1. Prepare COCO dataset:  
-  a. Download **COCO.json**  (Google Drive | [Baidu pan](https://pan.baidu.com/s/1q0S2Q3rH4wDjvb87VBw-Rg)). Place it into `./data/coco/` .  
+  a. Download **COCO.json**  (Google Drive | [Baidu pan](https://pan.baidu.com/s/1q0S2Q3rH4wDjvb87VBw-Rg) | [Dropbox](https://www.dropbox.com/s/0sj2q24hipiiq5t/COCO.json?dl=0)). Place it into `./data/coco/` .  
   b. Download **mask.tar.gz**  ([Google Drive]( https://drive.google.com/open?id=1IFaWH-ivoDHD1fLt5IRgQBDm_08mVRJF) | [Baidu pan](https://pan.baidu.com/s/1q0S2Q3rH4wDjvb87VBw-Rg)). Untar it into `./data/coco/` .  
   c. Download COCO dataset (2014)
   ```Shell
