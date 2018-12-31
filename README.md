@@ -20,7 +20,7 @@ FastPose is a small and fast multi-person pose estimator which use middle point 
 
 
 ## Demo
-You can run the code in the `./picture_demo.ipynb` to see the demo of your own image by changing test_image path 
+You can run the code in the [`./picture_demo.ipynb`](https://github.com/ZexinChen/FastPose/blob/master/picture_demo.ipynb) to see the demo of your own image by changing test_image path 
 
 <div align="center">
     <img src="readme/result.png", width="600">
